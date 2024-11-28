@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    display: flex;              
+    justify-content: space-between;
+    align-items: center;  
+    color: #ffffff;        
+    background-color: #333;      
+    padding: 10px 20px; 
+    width: 100vw;
+}
+
+.menu a {
+    color: white;                 
+    text-decoration: none;       
+    padding: 10px 15px;           
+    transition: background-color 0.3s;
+}
+
+.menu .logo {
+    font-size: 20px;          
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #faf6e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    width: 100vw;
+
+  }
+
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+    width: 100vw;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+
+  #sacola{
+    width: 32px;
+    height: 32px;
+  }
+
+  main .card{
+    display: flex;
+    background-color: #FEFFDC;
+    margin: 50px;
+    justify-content: space-between;
+    height: 600px;
+    padding: 50px;
+
+  }
+
+  main .card .image-container{
+    width:336px;
+    height: 399px;
+  }
+
+   .content{
+    margin-left: 200px;
+
+
+  }
+
+  
