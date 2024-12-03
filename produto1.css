@@ -1,121 +1,156 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-.menu {
-    display: flex;              
-    justify-content: space-between;
-    align-items: center;  
-    color: #ffffff;        
-    background-color: #333;      
-    padding: 10px 20px; 
-    width: 100vw;
-}
-
-.menu a {
-    color: white;                 
-    text-decoration: none;       
-    padding: 10px 15px;           
-    transition: background-color 0.3s;
-}
-
-.menu .logo {
-    font-size: 20px;          
-    font-weight: bold;
-}
-
-li {
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #faf6e8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    flex-direction: column;
-    width: 100vw;
+  background-color: #faf6e8;
+  margin: 0;
+  width: 100vw;
+}
 
-  }
+/* Menu/Header */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px 40px;
+}
 
-  footer {
-    background-color: #000;
-    color: #fff;
-    padding: 20px 0;
-    margin-top: 50px;
-    width: 100vw;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    flex-wrap: wrap;
-    
-  }
-  
-  .footer-column {
-    flex: 1;
-    min-width: 200px;
-    margin: 10px;
-  }
-  
-  .footer-column h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  .footer-column ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-column ul li {
-    margin: 5px 0;
-    font-size: 14px;
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    font-size: 14px;
-    margin-top: 20px;
-  }
-  
-  .footer-bottom p {
-    margin: 0;
-  }
+.menu img {
+  width: 40px; /* Ícones menores */
+  height: auto;
+}
 
-  #sacola{
-    width: 32px;
-    height: 32px;
-  }
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
 
-  main .card{
-    display: flex;
-    background-color: #FEFFDC;
-    margin: 50px;
-    justify-content: space-between;
-    height: 600px;
-    padding: 50px;
+/* Main Container */
+main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 100px; /* Aumentando a distância entre o conteúdo e o rodapé */
+}
 
-  }
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #FEFFDC;
+  border-radius: 10px;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  width: 90%;
+  padding: 40px;
+}
 
-  main .card .image-container{
-    width:336px;
-    height: 399px;
-  }
+.image-container {
+  width: 400px;
+  height: auto;
+  margin-right: 30px;
+}
 
-   .content{
-    margin-left: 200px;
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+}
 
+.content {
+  flex: 1;
+}
 
-  }
+h1 {
+  font-size: 28px;
+  color: #333;
+}
 
-  
+h3 {
+  font-size: 22px;
+  color: #555;
+  margin: 15px 0;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
+  margin: 15px 0;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+}
+
+.btn-comprar {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn-comprar:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}

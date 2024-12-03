@@ -53,15 +53,15 @@ li {
     object-fit:none;
     margin: 50px 0px;
 }
-.image-container{
-    width: auto;
+ .image-container{
+    width: 1120px;
     height: 241px;
     display: flex;
     animation: slideAnimation 35s infinite ease-in-out;
     animation-play-state: running;
 }
 .slider-image{
-    width: auto;
+    width: 1120px;
     height: 241px;
     object-fit:contain;
 }
